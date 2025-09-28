@@ -107,6 +107,10 @@ gsap.from("#colon2", {
   },
 });
 
+document.getElementById("arrow").addEventListener("click", function () {
+  document.querySelector("#page3").scrollIntoView({ behavior: "smooth" });
+});
+
 // gsap.from("#page4 h1", {
 //   y:60,
 //   scrollTrigger:{
